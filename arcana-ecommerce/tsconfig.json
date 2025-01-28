@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "ESNext",
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -10,9 +10,28 @@
     "moduleResolution": "node",
     "baseUrl": "./src",
     "paths": {
-      "*": ["node_modules/*", "src/*"]
-    }
+      "*": [
+        "node_modules/*",
+        "src/*"
+      ]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "build"]
+  "include": [
+    "src/**/*",
+    "pages/index.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
 }
