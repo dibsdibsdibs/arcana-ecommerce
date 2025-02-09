@@ -28,7 +28,7 @@
   },
   "include": [
     "src/**/*",
-    "pages/index.tsx"
+    "pages/**/*"
   ],
   "exclude": [
     "node_modules",
