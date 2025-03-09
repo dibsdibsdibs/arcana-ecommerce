@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "ItalianOldstyle";
+  src: url("../public/fonts/OPTIItalianOldstyle-Bold.otf") format("opentype");
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
