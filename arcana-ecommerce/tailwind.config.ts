@@ -14,6 +14,7 @@ export default {
         white: "#FEFFFE",
         cream: "#F7F0E6",
         mint: "#C9CE8C",
+        lightpink: "#F9D3D3",
       },
       fontFamily: {
         ibmplexmono: ['"IBM Plex Mono"', 'monospace'],
