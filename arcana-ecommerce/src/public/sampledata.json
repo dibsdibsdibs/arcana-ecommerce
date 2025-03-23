@@ -1,0 +1,59 @@
+{
+    "featuredProducts": [
+        {
+            "id": 1,
+            "name": "life planner",
+            "image": "/nb-lifeplanner.png",
+            "price": "24.99",
+            "ratings": 4.9,
+            "reviews": 54
+        },
+        {
+            "id": 2,
+            "name": "miniso notebook",
+            "image": "/nb-minisonotebook.png",
+            "price": "24.99",
+            "ratings": 4.9,
+            "reviews": 30
+        },
+        {
+            "id": 3,
+            "name": "blank notebook",
+            "image": "/nb-blanknotebook.png",
+            "price": "24.99",
+            "ratings": 4.5,
+            "reviews": 73
+        }
+    ],
+    "products": [
+        {
+            "category": "notebook",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "life planner",
+                    "image": "/nb-lifeplanner.png",
+                    "price": "24.99",
+                    "ratings": 4.9,
+                    "reviews": 54
+                },
+                {
+                    "id": 2,
+                    "name": "miniso notebook",
+                    "image": "/nb-minisonotebook.png",
+                    "price": "24.99",
+                    "ratings": 4.9,
+                    "reviews": 30
+                },
+                {
+                    "id": 3,
+                    "name": "blank notebook",
+                    "image": "/nb-blanknotebook.png",
+                    "price": "24.99",
+                    "ratings": 4.5,
+                    "reviews": 73
+                }
+            ]
+        }
+    ]
+}
