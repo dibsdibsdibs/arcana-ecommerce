@@ -2,7 +2,7 @@ import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
 
 export function Header() {
     return (
-        <div className="d-flex bg-white w-full h-20 font-ibmplexmono flex flex-row items-center px-8 z-10 justify-between">
+        <div className="d-flex bg-white w-full h-20 font-ibmplexmono flex flex-row items-center px-8 z-10 justify-between sticky top-0">
             <div className="flex flex-row w-48 justify-between">
                 <button className="text-black text-base font-bold">PRODUCTS</button>
                 <button className="text-black text-base font-bold">ABOUT US</button>
