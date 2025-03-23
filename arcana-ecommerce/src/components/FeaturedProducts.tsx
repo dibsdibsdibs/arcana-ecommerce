@@ -25,7 +25,11 @@ export function FeaturedProducts({
     );
 }
 
-const FeaturedProduct = ({ product }: { product: any }) => {
+const FeaturedProduct = ({ 
+    product 
+}: { 
+    product: Product 
+}) => {
     return (
         <div className="flex flex-col">
             <div className="bg-green p-2">

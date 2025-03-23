@@ -27,7 +27,7 @@
     ],
     "products": [
         {
-            "category": "notebook",
+            "category": "notebooks",
             "products": [
                 {
                     "id": 1,
@@ -52,6 +52,58 @@
                     "price": "24.99",
                     "ratings": 4.5,
                     "reviews": 73
+                }
+            ]
+        },
+        {
+            "category": "stickers",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "life planner",
+                    "image": "/nb-lifeplanner.png",
+                    "price": "24.99",
+                    "ratings": 4.9,
+                    "reviews": 54
+                }
+            ]
+        },
+        {
+            "category": "pens",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "life planner",
+                    "image": "/nb-lifeplanner.png",
+                    "price": "24.99",
+                    "ratings": 4.9,
+                    "reviews": 54
+                }
+            ]
+        },
+        {
+            "category": "papers",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "life planner",
+                    "image": "/nb-lifeplanner.png",
+                    "price": "24.99",
+                    "ratings": 4.9,
+                    "reviews": 54
+                }
+            ]
+        },
+        {
+            "category": "crafts",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "life planner",
+                    "image": "/nb-lifeplanner.png",
+                    "price": "24.99",
+                    "ratings": 4.9,
+                    "reviews": 54
                 }
             ]
         }
