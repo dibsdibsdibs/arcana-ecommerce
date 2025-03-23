@@ -5,8 +5,8 @@ export function HeroSection() {
         <div className="bg-cream">
             <div className="flex justify-around items-center p-10">
                 <div className="flex flex-col">
-                    <span className="font-italianoldstyle text-4xl text-black">feeling cute?</span>
-                    <span className="font-italianoldstyle text-4xl text-black">buy a notebook.</span>
+                    <span className="font-italianoldstyle text-6xl text-black">feeling cute?</span>
+                    <span className="font-italianoldstyle text-6xl text-black">buy a notebook.</span>
                     <div className="flex justify-center">
                         <button className="bg-mint text-black px-8 py-2 rounded-full font-ibmplexmono font-bold text-sm mt-4 w-40">
                             SHOP NOW
