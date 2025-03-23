@@ -1,7 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import { Product } from "@/model/products";
 
-const awsUrl = process.env.NEXT_PUBLIC_AWS_URL;
+const awsUrl = process.env.AWS_URL;
 
 export function FeaturedProducts({ 
     featuredProducts 
