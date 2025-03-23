@@ -1,39 +1,19 @@
 import { FaArrowRight } from "react-icons/fa";
+import { Product } from "@/model/products";
 
-const awsUrl = process.env.AWS_URL;
-const featuredProducts = [
-    {
-        id: 1,
-        name: "Featured Product 1",
-        image: awsUrl + "/1.png",
-        price: "24.99",
-        ratings: 4.9,
-        reviews: 54
-    },
-    {
-        id: 2,
-        name: "Featured Product 2",
-        image: awsUrl + "/2.png",
-        price: "24.99",
-        ratings: 4.9,
-        reviews: 30
-    },
-    {
-        id: 3,
-        name: "Featured Product 3",
-        image: awsUrl + "/3.png",
-        price: "24.99",
-        ratings: 4.5,
-        reviews: 73
-    },
-    
-]
+const awsUrl = process.env.NEXT_PUBLIC_AWS_URL;
 
-export function FeaturedProducts() {
+export function FeaturedProducts({ 
+    featuredProducts 
+}: { 
+    featuredProducts: Product[] 
+}) {
+
+    console.log(featuredProducts);
     return (
         <div className="px-10 py-20 flex flex-col items-center justify-center gap-10">
             <div className="flex flex-row justify-around w-full">
-                {featuredProducts.map((product) => (
+                {featuredProducts.map((product: Product) => (
                     <FeaturedProduct key={product.id} product={product} />
                 ))}
             </div>
@@ -45,11 +25,15 @@ export function FeaturedProducts() {
     );
 }
 
-const FeaturedProduct = ({ product }: { product: any }) => {
+const FeaturedProduct = ({ 
+    product 
+}: { 
+    product: Product 
+}) => {
     return (
         <div className="flex flex-col">
             <div className="bg-green p-2">
-                <img src={product.image} alt={product.name} className="w-64 h-64 object-cover"/>
+                <img src={awsUrl + product.image} alt={product.name} className="w-64 h-64 object-cover"/>
             </div>
             <div className="flex flex-col">
                 <span className="font-ibmplexmono font-bold text-2xl text-black text-center">{product.name}</span>
