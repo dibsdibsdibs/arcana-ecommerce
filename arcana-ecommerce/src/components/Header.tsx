@@ -1,3 +1,4 @@
+"use client"
 import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
 
 export function Header() {
