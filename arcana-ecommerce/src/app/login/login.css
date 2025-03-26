@@ -1,0 +1,14 @@
+
+.login-container {
+    z-index: 10;
+    flex: 1;
+    flex-direction: row;
+    height: 500px;
+}
+
+.login-image-bg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
