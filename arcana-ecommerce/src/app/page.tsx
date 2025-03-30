@@ -11,6 +11,7 @@ export default function Home() {
   const categories = sampledata.products.map((category: any) => category.category);
   const [displayedCategory, setDisplayedCategory] = useState(categories[0]);
   const [displayedProducts, setDisplayedProducts] = useState<Product[]>([]);
+  const awsUrl = process.env.NEXT_PUBLIC_AWS_URL;
 
   useEffect(() => {
     const list = sampledata.products.find((category: any) => category.category === displayedCategory);
@@ -23,14 +24,14 @@ export default function Home() {
 
   return (
     <div className="bg-cream">
-      <HeroSection />
+      <HeroSection heroImage={awsUrl + "/heroimage.png"} />
       <ProductListCategory 
         categories={categories} 
         displayedCategory={displayedCategory} 
         handleSelectCategory={handleSelectCategory}
       />
       <FeaturedProducts featuredProducts={displayedProducts} />
-      <AboutUs />
+      <AboutUs aboutUsImage={awsUrl + "/aboutus.png"} />
     </div>
   );
 }

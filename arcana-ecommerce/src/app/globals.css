@@ -32,3 +32,21 @@ body {
 .lowercase {
   text-transform: lowercase;
 }
+
+input {
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+button{
+  cursor: pointer;
+}
+
+button span {
+  cursor: inherit;
+}
+
+span:not(button span) {
+  cursor: default;
+}
