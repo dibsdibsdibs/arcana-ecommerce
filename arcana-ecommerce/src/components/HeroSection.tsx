@@ -1,5 +1,8 @@
-export function HeroSection() {
-    const awsUrl = process.env.AWS_URL;
+export function HeroSection({
+    heroImage,
+}: {
+    heroImage: string,
+}) { 
 
     return (
         <div className="bg-cream">
@@ -13,7 +16,7 @@ export function HeroSection() {
                         </button>
                     </div>
                 </div>
-                <img src={awsUrl + "/heroimage.png"} alt="hero-image" className="w-1/3" />
+                <img src={heroImage} alt="hero-image" className="w-1/3" />
             </div>
         </div>
     )
