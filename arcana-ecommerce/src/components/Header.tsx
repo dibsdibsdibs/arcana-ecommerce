@@ -9,13 +9,19 @@ export function Header() {
         router.push("/login");
     }
 
+    const navigateToHome = () => {
+        router.push("/")
+    }
+
     return (
         <div className="d-flex bg-white w-full h-20 font-ibmplexmono flex flex-row items-center px-8 z-10 justify-between sticky top-0 z-50">
             <div className="flex flex-row w-48 justify-between">
                 <button className="text-black text-base font-bold">PRODUCTS</button>
                 <button className="text-black text-base font-bold">ABOUT US</button>
             </div>
-            <a className="text-black font-italianoldstyle font-black text-3xl">PA</a>
+            <button onClick={navigateToHome}>
+                <span className="text-black font-italianoldstyle font-black text-3xl">PA</span>
+            </button>
             <div className="flex flex-row gap-8 w-48 justify-end">
                 <button className="">
                     <FaSearch color="black" />

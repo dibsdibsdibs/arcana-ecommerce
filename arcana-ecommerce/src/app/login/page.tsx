@@ -12,7 +12,7 @@ export default function LoginScreen() {
 
     return (
         <div className="bg-cream d-flex items-center justify-center px-32 py-16">
-            <img src={loginBg.src} alt="login-image" className="absolute right-24 top-40 w-80 z-10" />
+            <img src={loginBg.src} alt="login-image" className="absolute right-24 top-30 w-80 z-10" />
             <div className="">
                 <span className="font-italianoldstyle text-4xl text-black font-black">account login</span>
                 <div className="grid grid-cols-2 z-20 relative">
