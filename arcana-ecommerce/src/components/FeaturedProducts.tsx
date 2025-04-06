@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import { Product } from "@/model/products";
+import { Product } from "@/interface/products";
 
 const awsUrl = process.env.NEXT_PUBLIC_AWS_URL;
 

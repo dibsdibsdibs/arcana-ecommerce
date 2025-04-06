@@ -5,7 +5,7 @@ import { ProductListCategory } from "@/components/ProductListCategory";
 import { FeaturedProducts } from "@/components/FeaturedProducts";
 import { AboutUs } from "@/components/AboutUs";
 import sampledata from "@/public/sampledata.json";
-import { Product } from "@/model/products";
+import { Product } from "@/interface/products";
 
 export default function Home() {
   const categories = sampledata.products.map((category: any) => category.category);
